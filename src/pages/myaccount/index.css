@@ -1,0 +1,99 @@
+.page-page {
+    margin: 5% auto;
+    margin-top: 1%;
+    max-width: 980px;
+}
+
+.sidebar-sidebar {
+    display: inline-block;
+}
+.sidebar-sidebar {
+    vertical-align: top;
+    display: inline-block;
+    border-right: 1px solid #d4d5d9;
+    /* box-shadow-right: 1px 1px 5px #888888; */
+    text-align: left;
+    padding: 0px 25px 0px 0px;
+    font-size: 15px;
+}
+.segment-segment:first-child {
+    border-top: none;
+}
+.segment-segment {
+    border-top: 1px solid #d4d5d9;
+    padding: 20px 0px;
+    width: 145px;
+}
+
+.segment-link {
+    display: block;
+    margin: 5px 0px;
+}
+
+.segment-heading {
+    color: #7e818c;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+.account-account {
+    display: block;
+    border-bottom: 1px solid #d4d5d9;
+}
+
+.account-heading {
+    font-size: 18px;
+    font-weight: 800;
+}
+.page-myntraCredit, .page-profile, .page-resetPassword {
+    background: #ffffff;
+}
+
+.page-component, .page-myntraCredit, .page-profile {
+    width: 76%;
+    margin: 15px;
+}
+.page-myntraCredit, .page-profile, .page-resetPassword {
+    background: #ffffff;
+}
+.page-component, .page-myntraCredit, .page-profile {
+    width: 71%;
+    display: inline-block;
+    margin: 15px;
+}
+.page-myntraCredit, .page-profile, .page-resetPassword {
+    font-size: 14px;
+    background: #F5F5F6;
+}
+.profile-card {
+    padding: 42px 130px;
+    border: 1px solid #d4d4d9;
+}
+.profile-infoLabel {
+    color: #282C3F;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid #d4d5d9;
+    padding-bottom: 15px;
+    font-family: Whitney-SemiBold, Whitney!important;
+    padding: 0 24px 24px 24px;
+}
+.profile-infoTable {
+    margin: 25px 0 25px 0;
+    padding: 0 24px;
+    font-family: Whitney-Book , Whitney !important;
+}
+.profile-editButton {
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    font-weight: 800;
+    background-color:  #519e8a;
+    margin: 30px 24px;
+    color: white;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}

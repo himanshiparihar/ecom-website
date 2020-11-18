@@ -1,0 +1,68 @@
+.error-card {
+    margin: 20px 0px;
+    text-align: center;
+    padding: 30px;
+    width: 50%;
+    background-color: white;
+    -webkit-box-shadow: 0 0 4px rgba(40,44,63,0.08);
+    -moz-box-shadow: 0 0 4px rgba(40,44,63,0.08);
+    box-shadow: 0 0 4px rgba(40,44,63,0.08);
+    color: #3e4152;
+    border: 1px solid #EAEAEC;
+}
+.error-card .error-primaryMessage {
+    margin-bottom: 20px;
+    color: #94969F;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.error-card .error-secondaryMessage {
+    margin: 10px 0px 15px 0px;
+    color: #94969F;
+}
+.error-card .error-errorImage {
+    margin: 45px auto 25px auto;
+    background: url(https://constant.myntassets.com/selfserveui/assets/images/11488523304066-search404.png) no-repeat -2px 6px;
+    width: 237px;
+    height: 90px;
+}
+/* .error-card .error-showButton {
+    position: relative;
+    width: 160px;
+    padding: 15px 10px;
+    margin: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #d4d5d9;
+    font-weight: 800;
+    color: #526cd0;
+    cursor: pointer;
+    text-transform: uppercase;
+} */
+
+.error-card button  {
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 42.5px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+  }
+  
+  .error-card button:hover {
+    color: #519e8a;
+    background-color: #fff;
+    border: 2px solid #519e8a;
+  }
+  
+  .error-card button small {
+    color: #999;
+    font-weight: lighter;
+  }

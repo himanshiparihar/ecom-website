@@ -1,0 +1,146 @@
+.wrapper1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-image: url("https://t4.ftcdn.net/jpg/02/89/31/77/240_F_289317773_itVU6dhjIU4g9A7EsOSrwjuobeyFYPF7.jpg");
+  }
+  
+  .form-wrapper1 {
+    width: 700px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  h1 {
+    text-align: center;
+    width: 100%;
+    color: #111;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  label {
+    font-size: 0.8em;
+    margin-bottom: 0.25em;
+    color: #222;
+    font-weight: lighter;
+  }
+  
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+  }
+  
+  input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+  }
+  
+  input .error1 {
+    border: 1px solid red;
+  }
+  
+  .errorMessage1 {
+    color: red;
+    font-size: 0.75em;
+    display: relative;
+  }
+  
+
+  
+  .Name1,
+  .Phoneno1,
+  .Address1,
+  .email1,
+  .password1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  
+  .Name1,
+  .Phoneno1,
+  .email1,
+  .password1 {
+    width: 100%;
+    font-size: large;
+  }
+  .Address1{
+    width: 100%;
+    font-size: large;
+  }
+
+  .City1{
+  width: 300px;
+  padding: 5px;
+  /* margin: 1px; */
+  font-size: large;
+  margin-bottom: 5px;
+  }
+  
+  .State1{
+  width: 300px;
+  padding: 5px;
+  margin: 1px;
+  font-size: large;
+  margin-bottom: 5px;
+  }
+  .Zipcode1{
+  width: 300px;
+  padding: 5px;
+  /* margin: 1px; */
+  font-size: large;
+  margin-bottom: 5px;
+  }
+  
+  
+  .createAccount1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .createAccount1 button {
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+  }
+  
+  .createAccount1 button:hover {
+    color: #519e8a;
+    background-color: #fff;
+    border: 2px solid #519e8a;
+  }
+  
+  .createAccount1 small {
+    color: black;
+    font-weight: 250;
+  }

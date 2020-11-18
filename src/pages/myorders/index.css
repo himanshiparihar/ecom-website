@@ -1,0 +1,19 @@
+.page-fullWidthComponent {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 50px;
+    position: relative;
+}
+.page-fullWidthComponent {
+    font-size: 14px;
+}
+
+.card-1 {
+    border: 1px solid #EAEAEC;
+    box-shadow: 0 0 4px rgba(40,44,63,0.08);
+}
+
+.order-page-container{
+    min-height: 27em ;
+}

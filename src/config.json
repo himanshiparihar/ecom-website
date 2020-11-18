@@ -1,0 +1,11 @@
+{
+    "production": {
+        "dburl": "https://pacific-scrubland-12108.herokuapp.com/locals/v1"
+    },
+    "development":{
+        "dburl": "http://localhost:1337/locals/v1"
+    },
+    "staging": {
+        
+    }
+}
